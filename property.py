@@ -1,6 +1,6 @@
 
 class Property:
-    '''Repreent a property. Store square footage, number of bedrooms, 
+    '''Represents a property. Store square footage, number of bedrooms, 
        and number of bathrooms.'''
 
     def __init__(self, squareFeet='', beds='', baths='', **kwargs):
