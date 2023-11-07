@@ -1,11 +1,5 @@
 from property import Property
-
-def getValidInput(inputString, validOptions):
-    inputString += "  ({})  ".format(", ".join(validOptions))
-    response = input(inputString)
-    while response.lower() not in validOptions:
-        response = input(inputString)
-    return response
+from validation import getValidInput
 
 class Apartment(Property):
     '''Represents a property. Indicate if it has a balcony, and if
