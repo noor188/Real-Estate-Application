@@ -4,3 +4,4 @@ def getValidInput(inputString, validOptions):
     while response.lower() not in validOptions:
         response = input(inputString)
     return response
+
