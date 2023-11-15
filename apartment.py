@@ -17,7 +17,7 @@ class Apartment(Property):
         self.laundry = laundry
 
     def display(self):
-        '''Calls Properties display method using super to ensure the
+        '''Call Properties display method using super to ensure the
         Property class is properly initialized.'''
 
         super().display()
@@ -26,7 +26,7 @@ class Apartment(Property):
         print("has balcony: %s" % self.balcony)
 
     def promptInit():
-        '''Gets dictionary values from the parent class, and then adds some values of its own.
+        '''Get dictionary values from the parent class, and then adds some values of its own.
         laundry and balcony'''
         parentInit = Property.promptInit()
         laundry = getValidInput("What laundry facilities does "

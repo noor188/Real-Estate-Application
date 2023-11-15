@@ -12,7 +12,7 @@ class Rental:
     
     def display(self):
         '''Display the characteristics of the Rental.'''
-        #super().display()
+        super().display()
         print('RENTAL DETAILS')
         print('rent: {}'.format(self.rent))
         print('estimated utilities: {}'.format(self.utilities))
