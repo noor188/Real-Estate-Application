@@ -18,17 +18,19 @@ class House(Property):
         '''Calls Properties display method using super to ensure the 
         property class is properly initiaized'''
         super().display()
+        print()
         print('HOUSE DETAILS')
         print('# of stories: {}'.format(self.numStories))
         print('garage: {}'.format(self.garage))
         print('fenced yard: {}'.format(self.fenced))
+        print()
 
     def promptInit():
         '''Gets dictionary values from the parent class, and then adds some values of its own. Number of stories, garage, and fenced Yard'''
         parentInit = Property.promptInit()
-        numStories = input('How many stories? ')
         fenced = getValidInput('Is the yard fenced? ', House.validFenced)
         garage = getValidInput('Is there a garage? ', House.validGarage)
+        numStories = input('How many stories? ')
 
         parentInit.update({
             'numStories': numStories,
