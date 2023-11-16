@@ -9,8 +9,9 @@ class Purchase:
 
     def display(self):
         '''Displays the characteristics of the purchase.'''
-        #super().display()
+        super().display()
         print('PURCHASE DETAILS')
+        print('================')
         print('selling price: {}'.format(self.price))
         print('estimated taxes: {}'.format(self.taxes))
     

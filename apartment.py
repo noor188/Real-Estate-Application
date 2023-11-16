@@ -21,9 +21,12 @@ class Apartment(Property):
         Property class is properly initialized.'''
 
         super().display()
+        print()
         print("APARTMENT DETAILS")
-        print("laundry: %s" % self.laundy)
+        print('================')
+        print("laundry: %s" % self.laundry)
         print("has balcony: %s" % self.balcony)
+        print()
 
     def promptInit():
         '''Get dictionary values from the parent class, and then adds some values of its own.

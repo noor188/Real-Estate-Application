@@ -20,6 +20,7 @@ class House(Property):
         super().display()
         print()
         print('HOUSE DETAILS')
+        print('================')
         print('# of stories: {}'.format(self.numStories))
         print('garage: {}'.format(self.garage))
         print('fenced yard: {}'.format(self.fenced))

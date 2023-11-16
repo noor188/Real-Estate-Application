@@ -12,12 +12,14 @@ class Rental:
     
     def display(self):
         '''Display the characteristics of the Rental.'''
+        print()
         super().display()
         print('RENTAL DETAILS')
         print('rent: {}'.format(self.rent))
         print('estimated utilities: {}'.format(self.utilities))
         print('furnished: {}'.format(self.furnished))
-    
+        print()
+
     def promptInit():
         '''Uses a dict constructor to create a dictionary of values that can be
         passed into __init__. The value for each key is prompted with a call to input.'''
