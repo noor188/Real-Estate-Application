@@ -1,5 +1,5 @@
 class Purchase:
-    '''Represents a purchase. Store the purchase price 
+    '''Represent a purchase. Store the purchase price 
        and estimated annual property taxes.'''
     
     def __init__(self, price='', taxes='', **kwargs):
@@ -22,5 +22,4 @@ class Purchase:
             price = input('What is the selling price?'),
             taxes = input('What are the estimated taxes?')
         )
-
     promptInit = staticmethod(promptInit)
