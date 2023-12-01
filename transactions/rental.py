@@ -15,6 +15,7 @@ class Rental:
         print()
         super().display()
         print('RENTAL DETAILS')
+        print('================')
         print('rent: {}'.format(self.rent))
         print('estimated utilities: {}'.format(self.utilities))
         print('furnished: {}'.format(self.furnished))
