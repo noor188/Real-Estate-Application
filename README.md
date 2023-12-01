@@ -16,21 +16,24 @@ Agents of the Real Estate application should be able to :
 
 parent_directory/ <br /> 
 &ensp;agent.py  <br />
-&ensp;real_estate  <br />
-&ensp;&ensp;__init__.py
-&ensp;&ensp;apartment.py <br/>
-&ensp;&ensp;house.py <br />
-&ensp;&ensp;property.py <br/>
-&ensp;real_estate_transaction  <br />
-&ensp;&ensp;__init__.py <br />
-&ensp;&ensp;apartment_purchase.py <br />
-&ensp;&ensp;apartment_rental.py <br />
-&ensp;&ensp;house_purchase.py <br />
-&ensp;&ensp;house_rental.py <br/>
-&ensp;transactions  <br />
-&ensp;&ensp;__init__.py
-&ensp;&ensp;purchase.py <br/>
-&ensp;&ensp;rental.py <br />
+&ensp;errors/  <br />
+&ensp;&ensp;&ensp;&ensp;__init__.py <br/>
+&ensp;&ensp;&ensp;&ensp;validation.py <br/>
+&ensp;real_estate/  <br />
+&ensp;&ensp;&ensp;&ensp;__init__.py <br/>
+&ensp;&ensp;&ensp;&ensp;apartment.py <br/>
+&ensp;&ensp;&ensp;&ensp;house.py <br />
+&ensp;&ensp;&ensp;&ensp;property.py <br/>
+&ensp;real_estate_transactions/  <br />
+&ensp;&ensp;&ensp;&ensp;__init__.py <br />
+&ensp;&ensp;&ensp;&ensp;apartment_purchase.py <br />
+&ensp;&ensp;&ensp;&ensp;apartment_rental.py <br />
+&ensp;&ensp;&ensp;&ensp;house_purchase.py <br />
+&ensp;&ensp;&ensp;&ensp;house_rental.py <br/>
+&ensp;transactions/  <br />
+&ensp;&ensp;&ensp;&ensp;__init__.py <br/>
+&ensp;&ensp;&ensp;&ensp;purchase.py <br/>
+&ensp;&ensp;&ensp;&ensp;rental.py <br />
 
 
 --------------------------------------------------------------------------------------------
