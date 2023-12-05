@@ -1,5 +1,5 @@
-from purchase import Purchase
-from house import House
+from transactions.purchase import Purchase
+from real_estate.house import House
 
 class HousePurchase(Purchase, House):
     '''Represents a purchased house. It entends Purchase and House classes.'''

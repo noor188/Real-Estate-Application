@@ -1,5 +1,5 @@
-from rental import Rental
-from apartment import Apartment
+from transactions.rental import Rental
+from real_estate.apartment import Apartment
 
 class ApartmentRental(Rental, Apartment):
     '''Represents a rented apartment. It entends Rental and Apartment classes.'''
