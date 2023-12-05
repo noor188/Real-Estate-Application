@@ -1,4 +1,4 @@
-from validation import getValidInput
+from errors.validation import getValidInput
 
 class Rental:
     '''Represents a Rental. Store the rent per month,

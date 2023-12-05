@@ -1,5 +1,5 @@
-from rental import Rental
-from house import House
+from transactions.rental import Rental
+from real_estate.house import House
 
 class HouseRental(Rental, House):
     '''Represents a rented house. It extends Rental and House classes.

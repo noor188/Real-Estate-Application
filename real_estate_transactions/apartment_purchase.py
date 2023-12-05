@@ -1,5 +1,5 @@
-from purchase import Purchase
-from apartment import Apartment
+from transactions.purchase import Purchase
+from real_estate.apartment import Apartment
 
 class ApartmentPurchase(Purchase, Apartment):
     '''Represents a purchased apartment. It entends Purchase and Apartment classes.'''

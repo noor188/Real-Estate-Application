@@ -1,5 +1,5 @@
-from property import Property
-from validation import getValidInput
+from .property import Property
+from errors.validation import getValidInput
 
 class Apartment(Property):
     '''Represents a property. Indicate if it has a balcony, and if

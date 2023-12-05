@@ -1,5 +1,5 @@
-from property import Property
-from validation import getValidInput
+from .property import Property
+from errors.validation import getValidInput
 
 class House(Property):
     '''Represents a house. It advertise the number of stories, whether it has a garage,
